@@ -14,13 +14,11 @@ $(document).ready(function(){
 
   $("#soustotalJ1").val(joueurunSousTotal);
 
-  $(".B").hide()
-
-
   $(".chiffres").dblclick(cancel)
   $(".pS, .gS, .F, .C, .Y, .nulos").dblclick(cancel)
   $(".zero").dblclick(cancelNulos)
   $(".1s, .2s, .3s, .4s, .5s,.0s").dblclick(cancelFoix)
+
   $(".1s").hide()
   $(".2s").hide()
   $(".3s").hide()
