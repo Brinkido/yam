@@ -37,6 +37,16 @@
   src: url("../fonts/HelveticaNeueLTStd-XBlkCn.otf");
 }
 
+@font-face {
+  font-family: "HelvetiKM";
+  src: url("../fonts/HelveticaNeueLTStd-MdCn.otf");
+}
+
+@font-face {
+  font-family: "HelvetiKG";
+  src: url("../fonts/HelveticaLTStd-BoldCond.otf");
+}
+
 
 
 p{
@@ -57,7 +67,7 @@ table, td, tr {
   text-align: center;
   border-collapse: collapse;
   border-width: 4px;
-  font-family: "HelvetiK",sans-serif;
+  font-family: "HelvetiKG",sans-serif;
 }
 
 input{
@@ -130,6 +140,8 @@ background-color: lightgray;
   height:100%;
   justify-content: center;
   align-items:center;
+  font-size: 30px;
+  font-family: "HelvetiKM";
 }
 
 .Y:hover{
@@ -183,14 +195,7 @@ cursor: pointer;
     width:100%;
   }
 
-
-
-
-
-
-
-
-  @media only screen and (max-width:800px){
+  @media screen and (max-width:800px){
 
     table{width:100%;}
 
@@ -203,7 +208,27 @@ cursor: pointer;
     width:100%;
   }
 
+.huh{
+  font-size: 30px;
+}
+
+.B{
+  background-color: lightgray;
+}
+
+.sT{width:90%;}
+
+.T{background-color:black;
+    color:white;
+  width:100%;
+height:100%;
+font-family: "HelvetiGras";
+font-size:30px;}
+
   .zero{
     width:100%;
     height:100%;
+    font-size: 17px;
   }
+
+  .cancel1x2{width:100%;height:100%;background-color:blue}
