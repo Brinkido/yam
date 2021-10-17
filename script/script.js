@@ -38,7 +38,7 @@ $(document).ready(function(){
 function click1x1() {
   $(this).parent().hide()
   $(this).parent().prev("div").show()
-  $(this).parent().prev("div").html( parseInt($(this).parent().prev("div").text()) *1 )
+  $(this).parent().prev("div").html( parseInt($(this).parent().prev("div").text()) * 1 )
 }
 
 function click1x2() {
