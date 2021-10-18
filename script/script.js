@@ -141,6 +141,10 @@ function cancelZ(){
 
 function totaux(){
 
+  if(!$(".B").val()){
+    $(".B").val(0);
+  }
+
   // SOUS TOTAUX 1
 
   soustotal1j1 = parseInt($("#J1-1s").html())+parseInt($("#J1-2s").html())+parseInt($("#J1-3s").html())+parseInt($("#J1-4s").html())+parseInt($("#J1-5s").html())+parseInt($("#J1-6s").html());
